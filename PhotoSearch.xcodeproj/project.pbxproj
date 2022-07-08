@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6191E392878958600124770 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6191E382878958600124770 /* APIClient.swift */; };
+		F6191E3B2878959E00124770 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6191E3A2878959E00124770 /* Config.swift */; };
+		F6191E3D2878979700124770 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6191E3C2878979700124770 /* PhotoModel.swift */; };
+		F6191E4028789F9D00124770 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F6191E3F28789F9D00124770 /* Kingfisher */; };
 		F65322C32877D8A30016B9D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65322C22877D8A30016B9D5 /* AppDelegate.swift */; };
 		F65322C52877D8A30016B9D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65322C42877D8A30016B9D5 /* SceneDelegate.swift */; };
-		F65322C72877D8A30016B9D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65322C62877D8A30016B9D5 /* ViewController.swift */; };
+		F65322C72877D8A30016B9D5 /* PhotoSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65322C62877D8A30016B9D5 /* PhotoSearchViewController.swift */; };
 		F65322CA2877D8A30016B9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65322C82877D8A30016B9D5 /* Main.storyboard */; };
 		F65322CC2877D8A80016B9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65322CB2877D8A80016B9D5 /* Assets.xcassets */; };
 		F65322CF2877D8A80016B9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65322CD2877D8A80016B9D5 /* LaunchScreen.storyboard */; };
+		F65322D72877DF700016B9D5 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65322D62877DF700016B9D5 /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6191E382878958600124770 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F6191E3A2878959E00124770 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F6191E3C2878979700124770 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		F65322BF2877D8A30016B9D5 /* PhotoSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65322C22877D8A30016B9D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F65322C42877D8A30016B9D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F65322C62877D8A30016B9D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F65322C62877D8A30016B9D5 /* PhotoSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchViewController.swift; sourceTree = "<group>"; };
 		F65322C92877D8A30016B9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F65322CB2877D8A80016B9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F65322CE2877D8A80016B9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F65322D02877D8A80016B9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65322D62877DF700016B9D5 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6191E4028789F9D00124770 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +68,11 @@
 			children = (
 				F65322C22877D8A30016B9D5 /* AppDelegate.swift */,
 				F65322C42877D8A30016B9D5 /* SceneDelegate.swift */,
-				F65322C62877D8A30016B9D5 /* ViewController.swift */,
+				F6191E382878958600124770 /* APIClient.swift */,
+				F6191E3C2878979700124770 /* PhotoModel.swift */,
+				F65322C62877D8A30016B9D5 /* PhotoSearchViewController.swift */,
+				F6191E3A2878959E00124770 /* Config.swift */,
+				F65322D62877DF700016B9D5 /* ImageCell.swift */,
 				F65322C82877D8A30016B9D5 /* Main.storyboard */,
 				F65322CB2877D8A80016B9D5 /* Assets.xcassets */,
 				F65322CD2877D8A80016B9D5 /* LaunchScreen.storyboard */,
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = PhotoSearch;
+			packageProductDependencies = (
+				F6191E3F28789F9D00124770 /* Kingfisher */,
+			);
 			productName = PhotoSearch;
 			productReference = F65322BF2877D8A30016B9D5 /* PhotoSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = F65322B62877D8A30016B9D5;
+			packageReferences = (
+				F6191E3E28789F9D00124770 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F65322C02877D8A30016B9D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F65322C72877D8A30016B9D5 /* ViewController.swift in Sources */,
+				F65322C72877D8A30016B9D5 /* PhotoSearchViewController.swift in Sources */,
+				F65322D72877DF700016B9D5 /* ImageCell.swift in Sources */,
 				F65322C32877D8A30016B9D5 /* AppDelegate.swift in Sources */,
+				F6191E392878958600124770 /* APIClient.swift in Sources */,
+				F6191E3D2878979700124770 /* PhotoModel.swift in Sources */,
 				F65322C52877D8A30016B9D5 /* SceneDelegate.swift in Sources */,
+				F6191E3B2878959E00124770 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6191E3E28789F9D00124770 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6191E3F28789F9D00124770 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6191E3E28789F9D00124770 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F65322B72877D8A30016B9D5 /* Project object */;
 }
